@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,9 @@ using UnityEngine.Networking;
 public class AssetBundleLoadDemo : MonoBehaviour
 {
 
-    IEnumerator LoadNonObjectFromAB(string ABURL,GameObject goShowObj,string assetName)
+    IEnumerator LoadAB(string ABURL,Action<AssetBundle> loadAbFinshedAction)
     {
-        if (string.IsNullOrEmpty(ABURL) || goShowObj == null)
+        if (string.IsNullOrEmpty(ABURL) )
         {
             Debug.LogError(GetType() + "LoadNonObjectFromAB输入参数不合法！");
         }
@@ -23,7 +24,10 @@ public class AssetBundleLoadDemo : MonoBehaviour
             else
             {
                 AssetBundle ab = DownloadHandlerAssetBundle.GetContent(request);
-                ab.mainAsset
+                if (loadAbFinshedAction != null)
+                {
+                    loadAbFinshedAction(ab);
+                }
             }
         }
     }
