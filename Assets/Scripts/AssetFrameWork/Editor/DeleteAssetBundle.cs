@@ -15,7 +15,7 @@ namespace ABFW
         public static void DelAssetBundle()
         {
 
-            string strNeedDeleteDIR = PathTools.GetABOutPath();
+            string strNeedDeleteDIR = PathTools.GetAbLocalPath();
             if (!string.IsNullOrEmpty(strNeedDeleteDIR))
             {
                 //true代表可以删除非空目录

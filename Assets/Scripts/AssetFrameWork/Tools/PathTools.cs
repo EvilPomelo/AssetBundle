@@ -11,6 +11,8 @@ namespace ABFW
         /// </summary>
         private const string AB_RESOURCES = "AB_Resources";
 
+        private const string ServerAdress = @"http://localhost/";
+
         /// <summary>
         /// 获取AB资源目录
         /// </summary>
@@ -20,37 +22,21 @@ namespace ABFW
             return Application.dataPath + "/" + AB_RESOURCES;
         }
 
-
         /// <summary>
-        /// 获取下载AB包路径
+        /// 获取AB包服务器路径
         /// </summary>
         /// <returns></returns>
-        public static string GetAbDownloadPath()
+        public static string GetAbServerPath()
         {
-            string strABDownLoadPath = string.Empty;
-
-            switch (Application.platform)
-            {
-                case RuntimePlatform.WindowsPlayer:
-                case RuntimePlatform.WindowsEditor:
-                    strABDownLoadPath = GetABOutPath();
-                    break;
-                case RuntimePlatform.IPhonePlayer:
-                case RuntimePlatform.Android:
-                    strABDownLoadPath = GetABOutPath();
-                    break;
-                default:
-                    break;
-            }
-            Debug.Log("strABDownLoadPath" + strABDownLoadPath);
-            return strABDownLoadPath;
+            return ServerAdress + "/" + GetPlatformName();
         }
 
+
         /// <summary>
-        /// 获取AB包输出路径
+        /// 获取AB包本地路径
         /// </summary>
         /// <returns></returns>
-        public static string GetABOutPath()
+        public static string GetAbLocalPath()
         {
             return GetPlatformPath() + "/" + GetPlatformName();
         }
@@ -65,7 +51,7 @@ namespace ABFW
         }
 
         /// <summary>
-        /// 获取本地打包路径
+        /// 获取指定平台Application.streamingAssetsPath
         /// </summary>
         /// <returns></returns>
         public static string GetABOutUnityPath(RuntimePlatform platform)
@@ -125,6 +111,10 @@ namespace ABFW
             return strReturnPlatformName;
         }
 
+        /// <summary>
+        /// 获取指定运行平台的名称
+        /// </summary>
+        /// <returns></returns>
         private static string GetPlatformName(RuntimePlatform platform)
         {
             string strReturnPlatformName = string.Empty;

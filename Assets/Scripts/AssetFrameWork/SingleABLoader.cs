@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -21,7 +22,9 @@ namespace ABFW
         /// <summary>
         /// 下载路径
         /// </summary>
-        private string abDownLoadPath;
+        private string abServerPath;
+
+        private string abLocalPath;
 
         /// <summary>
         /// 初始化ab包名字和下载路径
@@ -33,11 +36,13 @@ namespace ABFW
             abName = assetBundleName;
             if (path == null)
             {
-                abDownLoadPath = PathTools.GetAbDownloadPath() + "/" + abName;
+                abLocalPath = PathTools.GetAbLocalPath() + "/" + abName;
+                abServerPath = PathTools.GetAbServerPath() + "/" + abName;
             }
             else
             {
-                abDownLoadPath = path;
+                abServerPath = path;
+                abLocalPath = path;
             }
         }
 
@@ -52,7 +57,7 @@ namespace ABFW
                 Debug.LogError(GetType() + "abName输入参数不合法！");
             }
 
-            AssetBundleCreateRequest abRequest = AssetBundle.LoadFromFileAsync(abDownLoadPath);
+            AssetBundleCreateRequest abRequest = AssetBundle.LoadFromFileAsync(abLocalPath);
             yield return abRequest;
             AssetBundle ab = abRequest.assetBundle;
 
@@ -78,8 +83,11 @@ namespace ABFW
             {
                 Debug.LogError(GetType() + "abName输入参数不合法！");
             }
+            Directory.CreateDirectory(@"E:\UnityProject\AssetBundle\Cache");
 
-            using (UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(abDownLoadPath))
+            Caching.currentCacheForWriting = Caching.AddCache(@"E:\UnityProject\AssetBundle\Cache");
+
+            using (UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(abServerPath, 2, 0))
             {
                 yield return request.SendWebRequest();
                 if (request.result != UnityWebRequest.Result.Success)

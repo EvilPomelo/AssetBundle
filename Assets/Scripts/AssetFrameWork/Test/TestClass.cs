@@ -13,6 +13,8 @@ namespace ABFW
         // Start is called before the first frame update
         void Start()
         {
+            Debug.Log(Application.persistentDataPath);
+
             loadObj = new SingleABLoader(abName2);
             StartCoroutine(loadObj.LoadAssetBundle(LoadComplete2));
 
