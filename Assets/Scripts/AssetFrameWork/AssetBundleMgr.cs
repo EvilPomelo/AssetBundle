@@ -73,7 +73,7 @@ namespace ABFW
             }
 
             //把当前场景加入集合中
-            if (dicAllScenes.ContainsKey(scenesName))
+            if (!dicAllScenes.ContainsKey(scenesName))
             {
                 MultiABMgr multiMgrObj = new MultiABMgr(scenesName, abName, loadAllCompleteHandle);
                 dicAllScenes.Add(scenesName, multiMgrObj);

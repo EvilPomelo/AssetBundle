@@ -46,11 +46,14 @@ namespace ABFW
         /// </summary>
         public ABManifestLoader()
         {
-            strManifestPath = PathTools.GetAbLocalPath();
+            //strManifestPath = PathTools.GetAbLocalPath();
+            //strManifestPath = PathTools.GetABOutUnityPath(RuntimePlatform.Android) + "//Android";
+            strManifestPath = PathTools.GetAbLocalPath() + "//Android";
             manifestObj = null;
             abReadManifest = null;
             isLoadFinsh = false;
         }
+
 
         /// <summary>
         /// 获取本类实例
@@ -74,7 +77,7 @@ namespace ABFW
             AssetBundleCreateRequest abRequest = AssetBundle.LoadFromFileAsync(strManifestPath);
             yield return abRequest;
             AssetBundle abObj = abRequest.assetBundle;
-            if (abObj == null)
+            if (abObj != null)
             {
                 abReadManifest = abObj;
                 //读取清单文件

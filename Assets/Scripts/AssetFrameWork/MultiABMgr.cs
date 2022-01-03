@@ -88,13 +88,13 @@ namespace ABFW
             //真正加载AB包
             if (dicSingleABLoaderCache.ContainsKey(abName))
             {
-                yield return dicSingleABLoaderCache[abName].LoadAssetBundle(CompleteLoadAB);
+                yield return dicSingleABLoaderCache[abName].LoadAssetBundleLocal(CompleteLoadAB);
             }
             else
             {
                 currentSingleABLoader = new SingleABLoader(abName);
                 dicSingleABLoaderCache.Add(abName, currentSingleABLoader);
-                yield return currentSingleABLoader.LoadAssetBundle(CompleteLoadAB);
+                yield return currentSingleABLoader.LoadAssetBundleLocal(CompleteLoadAB);
             }
 
 

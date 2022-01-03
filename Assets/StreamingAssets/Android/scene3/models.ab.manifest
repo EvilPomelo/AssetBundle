@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 3172258057
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43ab35f8b6bfb03a263d8d4236ad0428
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 83a22a3ee33f7f86e4aa6bd24c1b318f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/modelTheCube.fbx
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Materials/Taxi_Texture.mat
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Materials/initialShadingGroup1.mat
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001-6.jpg
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-Title/Materials/Vampire_Texture.mat
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_Board.jpg
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_Car.jpg
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Materials/Tx_TheCube.mat
+- Assets/AB_Res/Scene3/Models/Model/Floor/modelRoad.fbx
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/Vempire_No_Animation.FBX
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_TheCube3.png
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-Title/Vampire_Texture2.jpg
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001.jpg
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_Stone.jpg
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/Vempire_Animation.FBX
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Obstacle_Cone80.fbx
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001-3.jpg
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001-5.jpg
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-Title/Materials/Vampire_Texture2.mat
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/modelBoard.fbx
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/Animation_Frame.txt
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/modelCar.fbx
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-Title/Vampire_Animation2.FBX
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_Gave.jpg
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/Vampire_Texture.jpg
+- Assets/AB_Res/Scene3/Models/Model/Floor/Texture/Road.jpg
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/modelB1-2.fbx
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/modelGave.fbx
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Materials/lambert1.mat
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/Materials/Vampire_Texture1.mat
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_TheCube4.png
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_Fog.png
+- Assets/AB_Res/Scene3/Models/Model/Coin/CoinTexture.jpg
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_TheCube1.png
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Obstacle_Defend_Box.fbx
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-InGame/AnimationFrame.txt
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/modelStone.fbx
+- Assets/AB_Res/Scene3/Models/Model/Player/Vampire-Title/Vampire_No_Animation2.FBX
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001-4.jpg
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/modelB1-1.fbx
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/texture/Tx_TheCube2.png
+- Assets/AB_Res/Scene3/Models/Model/Obstacle/Obstacle_Stop_Fat.fbx
+- Assets/AB_Res/Scene3/Models/Model/Coin/Coin.FBX
+- Assets/AB_Res/Scene3/Models/Model/Building/NewBuilding/Texture/Tx_modelB001-2.jpg
+Dependencies:
+- E:/UnityProject/AssetBundle/Assets/StreamingAssets/Android/scene3/materials.ab

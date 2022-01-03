@@ -48,7 +48,7 @@ namespace ABFW
         }
 
         /// <summary>
-        /// 打包所有安卓AB包
+        /// 打包所有IOS AB包
         /// </summary> 
         [MenuItem("AssetBundleTools/BuildAllAB-IOS")]
         public static void BuildAllABIOS()

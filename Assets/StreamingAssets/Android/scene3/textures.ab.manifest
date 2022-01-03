@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 770660598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb2cb5a872e87c4fdf66c45bf3f02d8d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Res/Scene3/Textures/Num0.png
+- Assets/AB_Res/Scene3/Textures/loading-Color.png
+- Assets/AB_Res/Scene3/Textures/scorebar.png
+- Assets/AB_Res/Scene3/Textures/b-itemshoe.png
+- Assets/AB_Res/Scene3/Textures/button-next.psd
+- Assets/AB_Res/Scene3/Textures/loadingbar.png
+- Assets/AB_Res/Scene3/Textures/menu.psd
+- Assets/AB_Res/Scene3/Textures/b-pause-active.png
+- Assets/AB_Res/Scene3/Textures/b-exit-active.png
+- Assets/AB_Res/Scene3/Textures/b-resume-active.png
+- Assets/AB_Res/Scene3/Textures/Num3.png
+- Assets/AB_Res/Scene3/Textures/Num2.png
+- Assets/AB_Res/Scene3/Textures/loadingbar-bg.png
+- Assets/AB_Res/Scene3/Textures/b-pause.png
+- Assets/AB_Res/Scene3/Textures/b-resume.png
+- Assets/AB_Res/Scene3/Textures/b-itemmagnet.png
+- Assets/AB_Res/Scene3/Textures/b-itemx2.png
+- Assets/AB_Res/Scene3/Textures/coin.png
+- Assets/AB_Res/Scene3/Textures/b-restart.png
+- Assets/AB_Res/Scene3/Textures/anykeytoplay.png
+- Assets/AB_Res/Scene3/Textures/b-exit.png
+- Assets/AB_Res/Scene3/Textures/b-restart-active.png
+- Assets/AB_Res/Scene3/Textures/title.png
+- Assets/AB_Res/Scene3/Textures/Num1.png
+- Assets/AB_Res/Scene3/Textures/b-itemstar.png
+Dependencies: []

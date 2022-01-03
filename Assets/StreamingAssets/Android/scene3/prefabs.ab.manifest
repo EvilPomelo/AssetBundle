@@ -1,0 +1,85 @@
+ManifestFileVersion: 0
+CRC: 3529361610
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b146ae133658ea01915324a6485c36dc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 73b0077b4808f47070e3e172451fed1e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8577f49d468a244a987e71648e1cec18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e5feebd9ae8747f19f84cda983653cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28b489b47396249f7ad768bbd451577c, type: 3}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Res/Scene3/Prefabs/Item/Item_Multiply.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Barrier.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_7.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Grave.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Coin.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_6.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Item_Sprint.prefab
+- Assets/AB_Res/Scene3/Prefabs/SetStartPlatform/StaterPlatform.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_5.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_11.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_10.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_9.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_8.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Item_Jump.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_1.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Item_Magnet.prefab
+- Assets/AB_Res/Scene3/Prefabs/_Eviromens.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_12.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_4.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_2.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Obstacle_Roll.prefab
+- Assets/AB_Res/Scene3/Prefabs/Floor/Floor.prefab
+- Assets/AB_Res/Scene3/Prefabs/Building/Building_3.prefab
+- Assets/AB_Res/Scene3/Prefabs/Item/Car.prefab
+- Assets/AB_Res/Scene3/Prefabs/Character/Player.prefab
+Dependencies:
+- E:/UnityProject/AssetBundle/Assets/StreamingAssets/Android/scene3/materials.ab
+- E:/UnityProject/AssetBundle/Assets/StreamingAssets/Android/scene3/models.ab

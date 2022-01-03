@@ -38,7 +38,8 @@ namespace ABFW
         /// <returns></returns>
         public static string GetAbLocalPath()
         {
-            return GetPlatformPath() + "/" + GetPlatformName();
+            //return GetPlatformPath() + "/" + GetPlatformName();
+            return PathTools.GetABOutUnityPath(RuntimePlatform.Android);
         }
 
         /// <summary>

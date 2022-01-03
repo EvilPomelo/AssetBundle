@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestClass_ABToolFrameWo : MonoBehaviour
+public class TestClass_ABToolFrameWork : MonoBehaviour
 {
-    private string sceneName = "";
-    private string assetBundleName = "";
-    private string assetName = "";
+    private string sceneName = "Scene1";
+    private string assetBundleName = "scene1/prefabs.ab";
+    private string assetName = "jieni.prefab";
 
     // Start is called before the first frame update
     void Start()

@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 2453316624
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f5ffb103db7b80813deb6de5ba98b8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2040a22dc8def9e3bb3f2ac808d3f278
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fd34d82b81094e3d995a3faffc29b37, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Res/Scene3/Effect/Effect_Texture/TheCube_Magnet.png
+- Assets/AB_Res/Scene3/Effect/Effect_Material/TheCube_Magnet.mat
+- Assets/AB_Res/Scene3/Effect/Effect_Material/CoinCollect.mat
+- Assets/AB_Res/Scene3/Effect/Effect_Material/TheCube_Double.mat
+- Assets/AB_Res/Scene3/Effect/Prefebs/TheCube_Magnet.prefab
+- Assets/AB_Res/Scene3/Effect/Effect_Material/TheCube_Shoe.mat
+- Assets/AB_Res/Scene3/Effect/Effect_Texture/TheCube_Double.png
+- Assets/AB_Res/Scene3/Effect/Prefebs/CoinCollectFlash.prefab
+- Assets/AB_Res/Scene3/Effect/Effect_Texture/CoinCollect.png
+- Assets/AB_Res/Scene3/Effect/Effect_Texture/TheCube_Star.png
+- Assets/AB_Res/Scene3/Effect/Effect_Texture/TheCube_Shoes.png
+- Assets/AB_Res/Scene3/Effect/Prefebs/TheCube_Double.prefab
+- Assets/AB_Res/Scene3/Effect/Effect_Material/TheCube_Star.mat
+- Assets/AB_Res/Scene3/Effect/Prefebs/TheCube_Star.prefab
+- Assets/AB_Res/Scene3/Effect/Prefebs/TheCube_Shoe.prefab
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 29685496
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd451c4fc70a93e89a5b09e1908fb8d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AB_Resources/Scene2/Textures/pika.png
+Dependencies: []
