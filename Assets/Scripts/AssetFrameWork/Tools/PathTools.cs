@@ -9,7 +9,7 @@ namespace ABFW
         /// <summary>
         /// 资源路径常量
         /// </summary>
-        private const string AB_RESOURCES = "AB_Resources";
+        private const string AB_RESOURCES = "AB_Res";
 
         private const string ServerAdress = @"http://localhost/";
 

@@ -20,10 +20,13 @@ namespace ABFW
         private string abName;
 
         /// <summary>
-        /// 下载路径
+        /// 网络下载路径
         /// </summary>
         private string abServerPath;
 
+        /// <summary>
+        /// 本地下载路径
+        /// </summary>
         private string abLocalPath;
 
         /// <summary>
@@ -50,7 +53,7 @@ namespace ABFW
         /// 本地读取ASSETBUNDLE
         /// </summary>
         /// <returns></returns>
-        public IEnumerator LoadAssetBundleLocal(Action<string> LoadComplete)
+        public IEnumerator LoadAssetBundleLocal(Action<string> LoadComplete, bool isAsync = true)
         {
             if (string.IsNullOrEmpty(abName))
             {
@@ -58,6 +61,7 @@ namespace ABFW
             }
 
             AssetBundleCreateRequest abRequest = AssetBundle.LoadFromFileAsync(abLocalPath);
+
             yield return abRequest;
             AssetBundle ab = abRequest.assetBundle;
 
